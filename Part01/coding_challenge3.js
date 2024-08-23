@@ -1,6 +1,5 @@
 // There are two gymnastics teams, Dolphins and Koalas. They compete against each
 // other 3 times. The winner with the highest average score wins a trophy!
-
 function calculateAverage(scores) {
     let sum = scores.reduce((a, b) => a + b, 0);
     return sum / scores.length;
@@ -20,7 +19,6 @@ function determineWinner(dolphins, koalas) {
         console.log("No team wins the trophy");
     }
 }
-
 // Test data
 let dolphins1 = [96, 108, 89];
 let koalas1 = [88, 91, 110];
